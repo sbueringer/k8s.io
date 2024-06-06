@@ -1,0 +1,57 @@
+apiVersion: v1
+data:
+  config: |
+    resources:
+    - names:
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-001
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-002
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-003
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-004
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-005
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-006
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-007
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-008
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-009
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-010
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-011
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-012
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-013
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-014
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-015
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-016
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-017
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-018
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-019
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-020
+      state: dirty
+      type: vsphere-project-cluster-api-provider
+    - names:
+      - k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-001
+      - k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-002
+      - k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-003
+      - k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-004
+      - k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-005
+      - k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-006
+      - k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-007
+      - k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-008
+      - k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-009
+      - k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-010
+      state: dirty
+      type: vsphere-project-cloud-provider
+    - names:
+      - k8s-infra-e2e-boskos-vsphere-image-builder-001
+      - k8s-infra-e2e-boskos-vsphere-image-builder-002
+      - k8s-infra-e2e-boskos-vsphere-image-builder-003
+      - k8s-infra-e2e-boskos-vsphere-image-builder-004
+      - k8s-infra-e2e-boskos-vsphere-image-builder-005
+      - k8s-infra-e2e-boskos-vsphere-image-builder-006
+      - k8s-infra-e2e-boskos-vsphere-image-builder-007
+      - k8s-infra-e2e-boskos-vsphere-image-builder-008
+      - k8s-infra-e2e-boskos-vsphere-image-builder-009
+      - k8s-infra-e2e-boskos-vsphere-image-builder-010
+      state: dirty
+      type: vsphere-project-image-builder
+kind: ConfigMap
+metadata:
+  name: resources
+  namespace: test-pods

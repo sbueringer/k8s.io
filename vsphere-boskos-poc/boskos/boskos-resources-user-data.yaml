@@ -1,0 +1,197 @@
+resources:
+- type: vsphere-project-cluster-api-provider
+  resources:
+  - name: k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-001
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cluster-api-provider-vsphere/001
+      folder: /SDDC-Datacenter/vm/prow/cluster-api-provider-vsphere/001
+      ipPool: '{\"addresses\":[\"192.168.26.1-192.168.26.16\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-002
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cluster-api-provider-vsphere/002
+      folder: /SDDC-Datacenter/vm/prow/cluster-api-provider-vsphere/002
+      ipPool: '{\"addresses\":[\"192.168.26.17-192.168.26.32\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-003
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cluster-api-provider-vsphere/003
+      folder: /SDDC-Datacenter/vm/prow/cluster-api-provider-vsphere/003
+      ipPool: '{\"addresses\":[\"192.168.26.33-192.168.26.48\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-004
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cluster-api-provider-vsphere/004
+      folder: /SDDC-Datacenter/vm/prow/cluster-api-provider-vsphere/004
+      ipPool: '{\"addresses\":[\"192.168.26.49-192.168.26.64\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-005
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cluster-api-provider-vsphere/005
+      folder: /SDDC-Datacenter/vm/prow/cluster-api-provider-vsphere/005
+      ipPool: '{\"addresses\":[\"192.168.26.65-192.168.26.80\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-006
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cluster-api-provider-vsphere/006
+      folder: /SDDC-Datacenter/vm/prow/cluster-api-provider-vsphere/006
+      ipPool: '{\"addresses\":[\"192.168.26.81-192.168.26.96\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-007
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cluster-api-provider-vsphere/007
+      folder: /SDDC-Datacenter/vm/prow/cluster-api-provider-vsphere/007
+      ipPool: '{\"addresses\":[\"192.168.26.97-192.168.26.112\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-008
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cluster-api-provider-vsphere/008
+      folder: /SDDC-Datacenter/vm/prow/cluster-api-provider-vsphere/008
+      ipPool: '{\"addresses\":[\"192.168.26.113-192.168.26.128\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-009
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cluster-api-provider-vsphere/009
+      folder: /SDDC-Datacenter/vm/prow/cluster-api-provider-vsphere/009
+      ipPool: '{\"addresses\":[\"192.168.26.129-192.168.26.144\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-010
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cluster-api-provider-vsphere/010
+      folder: /SDDC-Datacenter/vm/prow/cluster-api-provider-vsphere/010
+      ipPool: '{\"addresses\":[\"192.168.26.145-192.168.26.160\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-011
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cluster-api-provider-vsphere/011
+      folder: /SDDC-Datacenter/vm/prow/cluster-api-provider-vsphere/011
+      ipPool: '{\"addresses\":[\"192.168.26.161-192.168.26.176\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-012
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cluster-api-provider-vsphere/012
+      folder: /SDDC-Datacenter/vm/prow/cluster-api-provider-vsphere/012
+      ipPool: '{\"addresses\":[\"192.168.26.177-192.168.26.192\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-013
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cluster-api-provider-vsphere/013
+      folder: /SDDC-Datacenter/vm/prow/cluster-api-provider-vsphere/013
+      ipPool: '{\"addresses\":[\"192.168.26.193-192.168.26.208\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-014
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cluster-api-provider-vsphere/014
+      folder: /SDDC-Datacenter/vm/prow/cluster-api-provider-vsphere/014
+      ipPool: '{\"addresses\":[\"192.168.26.209-192.168.26.224\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-015
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cluster-api-provider-vsphere/015
+      folder: /SDDC-Datacenter/vm/prow/cluster-api-provider-vsphere/015
+      ipPool: '{\"addresses\":[\"192.168.26.225-192.168.26.240\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-016
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cluster-api-provider-vsphere/016
+      folder: /SDDC-Datacenter/vm/prow/cluster-api-provider-vsphere/016
+      ipPool: '{\"addresses\":[\"192.168.27.1-192.168.27.16\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-017
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cluster-api-provider-vsphere/017
+      folder: /SDDC-Datacenter/vm/prow/cluster-api-provider-vsphere/017
+      ipPool: '{\"addresses\":[\"192.168.27.17-192.168.27.32\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-018
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cluster-api-provider-vsphere/018
+      folder: /SDDC-Datacenter/vm/prow/cluster-api-provider-vsphere/018
+      ipPool: '{\"addresses\":[\"192.168.27.33-192.168.27.48\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-019
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cluster-api-provider-vsphere/019
+      folder: /SDDC-Datacenter/vm/prow/cluster-api-provider-vsphere/019
+      ipPool: '{\"addresses\":[\"192.168.27.49-192.168.27.64\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-020
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cluster-api-provider-vsphere/020
+      folder: /SDDC-Datacenter/vm/prow/cluster-api-provider-vsphere/020
+      ipPool: '{\"addresses\":[\"192.168.27.65-192.168.27.80\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+- type: vsphere-project-cloud-provider
+  resources:
+  - name: k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-001
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cloud-provider-vsphere/001
+      folder: /SDDC-Datacenter/vm/prow/cloud-provider-vsphere/001
+      ipPool: '{\"addresses\":[\"192.168.25.1-192.168.25.16\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-002
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cloud-provider-vsphere/002
+      folder: /SDDC-Datacenter/vm/prow/cloud-provider-vsphere/002
+      ipPool: '{\"addresses\":[\"192.168.25.17-192.168.25.32\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-003
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cloud-provider-vsphere/003
+      folder: /SDDC-Datacenter/vm/prow/cloud-provider-vsphere/003
+      ipPool: '{\"addresses\":[\"192.168.25.33-192.168.25.48\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-004
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cloud-provider-vsphere/004
+      folder: /SDDC-Datacenter/vm/prow/cloud-provider-vsphere/004
+      ipPool: '{\"addresses\":[\"192.168.25.49-192.168.25.64\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-005
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cloud-provider-vsphere/005
+      folder: /SDDC-Datacenter/vm/prow/cloud-provider-vsphere/005
+      ipPool: '{\"addresses\":[\"192.168.25.65-192.168.25.80\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-006
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cloud-provider-vsphere/006
+      folder: /SDDC-Datacenter/vm/prow/cloud-provider-vsphere/006
+      ipPool: '{\"addresses\":[\"192.168.25.81-192.168.25.96\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-007
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cloud-provider-vsphere/007
+      folder: /SDDC-Datacenter/vm/prow/cloud-provider-vsphere/007
+      ipPool: '{\"addresses\":[\"192.168.25.97-192.168.25.112\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-008
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cloud-provider-vsphere/008
+      folder: /SDDC-Datacenter/vm/prow/cloud-provider-vsphere/008
+      ipPool: '{\"addresses\":[\"192.168.25.113-192.168.25.128\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-009
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cloud-provider-vsphere/009
+      folder: /SDDC-Datacenter/vm/prow/cloud-provider-vsphere/009
+      ipPool: '{\"addresses\":[\"192.168.25.129-192.168.25.144\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+  - name: k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-010
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/cloud-provider-vsphere/010
+      folder: /SDDC-Datacenter/vm/prow/cloud-provider-vsphere/010
+      ipPool: '{\"addresses\":[\"192.168.25.145-192.168.25.160\"],\"gateway\":\"192.168.24.1\",\"prefix\":21}'
+- type: vsphere-project-image-builder
+  resources:
+  - name: k8s-infra-e2e-boskos-vsphere-image-builder-001
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/image-builder/001
+      folder: /SDDC-Datacenter/vm/prow/image-builder/001
+  - name: k8s-infra-e2e-boskos-vsphere-image-builder-002
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/image-builder/002
+      folder: /SDDC-Datacenter/vm/prow/image-builder/002
+  - name: k8s-infra-e2e-boskos-vsphere-image-builder-003
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/image-builder/003
+      folder: /SDDC-Datacenter/vm/prow/image-builder/003
+  - name: k8s-infra-e2e-boskos-vsphere-image-builder-004
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/image-builder/004
+      folder: /SDDC-Datacenter/vm/prow/image-builder/004
+  - name: k8s-infra-e2e-boskos-vsphere-image-builder-005
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/image-builder/005
+      folder: /SDDC-Datacenter/vm/prow/image-builder/005
+  - name: k8s-infra-e2e-boskos-vsphere-image-builder-006
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/image-builder/006
+      folder: /SDDC-Datacenter/vm/prow/image-builder/006
+  - name: k8s-infra-e2e-boskos-vsphere-image-builder-007
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/image-builder/007
+      folder: /SDDC-Datacenter/vm/prow/image-builder/007
+  - name: k8s-infra-e2e-boskos-vsphere-image-builder-008
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/image-builder/008
+      folder: /SDDC-Datacenter/vm/prow/image-builder/008
+  - name: k8s-infra-e2e-boskos-vsphere-image-builder-009
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/image-builder/009
+      folder: /SDDC-Datacenter/vm/prow/image-builder/009
+  - name: k8s-infra-e2e-boskos-vsphere-image-builder-010
+    userData:
+      resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/prow/image-builder/010
+      folder: /SDDC-Datacenter/vm/prow/image-builder/010
