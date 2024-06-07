@@ -50,6 +50,11 @@ export BOSKOS_HOST=http://192.168.6.138:32222
 curl -k -v ${BOSKOS_HOST}/metrics
 
 # Acquire all resources (repeat command until all are acquired)
+# Initializing
+while true; do curl -X POST "${BOSKOS_HOST}/acquire?type=vsphere-project-cloud-provider&state=initializing&dest=busy&owner=$(whoami)"; done
+while true; do curl -X POST "${BOSKOS_HOST}/acquire?type=vsphere-project-cluster-api-provider&state=initializing&dest=busy&owner=$(whoami)"; done
+while true; do curl -X POST "${BOSKOS_HOST}/acquire?type=vsphere-project-image-builder&state=initializing&dest=busy&owner=$(whoami)"; done
+
 # Free
 while true; do curl -X POST "${BOSKOS_HOST}/acquire?type=vsphere-project-cloud-provider&state=free&dest=busy&owner=$(whoami)"; done
 while true; do curl -X POST "${BOSKOS_HOST}/acquire?type=vsphere-project-cluster-api-provider&state=free&dest=busy&owner=$(whoami)"; done

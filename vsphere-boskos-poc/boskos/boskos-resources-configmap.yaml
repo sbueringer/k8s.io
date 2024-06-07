@@ -23,7 +23,7 @@ data:
       - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-018
       - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-019
       - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-020
-      state: dirty
+      state: initializing
       type: vsphere-project-cluster-api-provider
     - names:
       - k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-001
@@ -36,7 +36,7 @@ data:
       - k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-008
       - k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-009
       - k8s-infra-e2e-boskos-vsphere-cloud-provider-vsphere-010
-      state: dirty
+      state: initializing
       type: vsphere-project-cloud-provider
     - names:
       - k8s-infra-e2e-boskos-vsphere-image-builder-001
@@ -49,7 +49,7 @@ data:
       - k8s-infra-e2e-boskos-vsphere-image-builder-008
       - k8s-infra-e2e-boskos-vsphere-image-builder-009
       - k8s-infra-e2e-boskos-vsphere-image-builder-010
-      state: dirty
+      state: initializing
       type: vsphere-project-image-builder
 kind: ConfigMap
 metadata:
