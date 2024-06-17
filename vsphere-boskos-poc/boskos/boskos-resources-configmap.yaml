@@ -23,6 +23,26 @@ data:
       - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-018
       - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-019
       - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-020
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-021
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-022
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-023
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-024
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-025
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-026
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-027
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-028
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-029
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-030
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-031
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-032
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-033
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-034
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-035
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-036
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-037
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-038
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-039
+      - k8s-infra-e2e-boskos-vsphere-cluster-api-provider-vsphere-040
       state: initializing
       type: vsphere-project-cluster-api-provider
     - names:

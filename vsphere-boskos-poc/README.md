@@ -33,10 +33,10 @@ cd ./boskos
 
 export KUBECONFIG=***
 
-kubectl apply -f ./boskos/namespace.yaml
-kubectl apply -f ./boskos/boskos-resources-configmap.yaml
-kubectl apply -f ./boskos/boskos.yaml
-kubectl apply -f ./boskos/boskos-reaper-deployment.yaml
+kubectl apply -f ./namespace.yaml
+kubectl apply -f ./boskos-resources-configmap.yaml
+kubectl apply -f ./boskos.yaml
+kubectl apply -f ./boskos-reaper-deployment.yaml
 ```
 
 Init resources

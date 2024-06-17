@@ -20,7 +20,7 @@ variable "vsphere_server" {
 
 variable "nr_cluster_api_provider_projects" {
   type    = number
-  default = 20
+  default = 40
 }
 
 variable "nr_cloud_provider_projects" {
